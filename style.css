@@ -1,0 +1,63 @@
+.container {
+    width: 650px;
+    height: 360px;
+    margin: auto;
+    /*background-color: lightgreen;*/
+    border: solid lightgray;
+    background: linear-gradient(180deg, cadetblue 90px, white 18%);
+}
+#information {
+    margin-top: 150px;
+}
+#location {
+    width:inherit;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.description {
+    width:inherit;
+    height: 40px;
+}
+.edit {
+    width:inherit;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#user-pic {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    position: fixed;
+    top: 50px
+}
+#loc-pic {
+    width: 20px;
+    height: 30px;
+}
+#gear-pic {
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+h3 {
+    margin-left: 10px;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.p3 {
+    margin-left: 10px;
+    color:royalblue;
+    text-decoration: underline;
+}
+h1, h3, p, .p3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
